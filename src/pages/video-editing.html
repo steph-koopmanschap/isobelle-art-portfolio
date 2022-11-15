@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Isobelle Artist Portfolio</title>
+  <meta name="description" content="Artist portfolio of Isobelle Villablanca">
+  <meta name="author" content="Isobelle Villablanca">
+
+  <meta property="og:title" content="Isobelle Artist Portfolio">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://isobelle-villablanca.lan/index.html/">
+  <meta property="og:description" content="Isobelle Artist Portfolio">
+  <meta property="og:image" content="image.png">
+
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Minified Stylesheet -->
+  <link rel="stylesheet" href="../../output.min.css">
+  <!-- Web components -->
+  <script src="/src/components/header.js" type="text/javascript" defer></script>
+  <script src="/src/components/footer.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <header-component></header-component>
+    <!-- video editing page-->
+    <main>
+      <!-- Headline -->
+      <section class="flex flex-col w-full justify-center items-center gap-y-10">
+        <h1 class="text-4xl">
+          MAKE YOUR STORY KNOWN
+        </h1>
+        <h2 class="text-3xl w-1/3 break-words text-center">
+          Create an unbeatable company image
+          and stand out from the rest
+          <br />
+          with a video editor.
+        </h2>
+      </section>
+      <!-- Headline -END -->
+
+      <!-- Main video section -->
+      <section class="flex flex-col w-full justify-center items-center my-10 gap-y-10">
+        <video width="980" height="400" controls>
+          <source src="../../assets/videos/VIDEO-EDITOR-PORTFOLIO_Iso-Villablanca.mp4" type="video/mp4">
+          Video could not load.
+        </video>
+      </section>
+      <!-- Main video section -END -->
+
+    <!-- Video gallery -->
+    <div class="container mx-auto">
+      <div class="flex flex-row flex-wrap justify-center">
+        <video class="../../assets/videos/movie.mp4" src="movie.mp4" width="512" height="300" controls>
+          <source  type="video/mp4">
+          Video could not load.
+        </video>
+        <video class="gallery-item" width="512" height="300" controls>
+          <source src="../../assets/videos/movie.mp4" type="video/mp4">
+          Video could not load.
+        </video>
+      </div>
+    </div>
+    <!-- Video gallery -END -->
+
+    </main>
+
+    <footer-component></footer-component>
+</body>
+</html>
