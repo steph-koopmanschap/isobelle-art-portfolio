@@ -1,0 +1,19 @@
+{
+  "name": "isobelle-portfolio",
+  "version": "1.0.0",
+  "description": "Isobelle Art Portfolio",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss build -i index.css -o output.min.css --minify --watch",
+    "build": "npx tailwindcss build -i index.css -o output.min.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "art",
+    "portfolio",
+    "designer"
+  ],
+  "private": true,
+  "author": "Isobelle Villablanca",
+  "license": "UNLICENSED"
+}
