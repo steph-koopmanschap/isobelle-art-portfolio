@@ -14,7 +14,7 @@ class Header extends HTMLElement {
             <a
               class="text-6xl mb-6
               "
-              href="/index.html"
+              href="https://steph-koopmanschap.github.io/isobelle-art-portfolio/"
             >
             I.V.
             </a>
@@ -27,7 +27,7 @@ class Header extends HTMLElement {
                   <li class="dropdown-menu-head">
                     <button 
                       class="flex mx-4 text-2xl hover:text-indigo-600" 
-                      href="/index.html"
+                      href="https://steph-koopmanschap.github.io/isobelle-art-portfolio/"
                     >
                     ARTWORK
                     <!-- DOWN ARROW ICON -->
@@ -54,7 +54,7 @@ class Header extends HTMLElement {
                       <li>
                         <a
                           class="m3 text-xl hover:bg-black text-white"
-                          href="/index.html"
+                          href="https://steph-koopmanschap.github.io/isobelle-art-portfolio/"
                         >
                         Ads & Social Media
                         </a>
@@ -62,7 +62,7 @@ class Header extends HTMLElement {
                       <li>
                         <a
                           class="m3 text-xl hover:bg-black text-white"
-                          href="http://127.0.0.1:5500/src/pages/video-editing.html"
+                          href="https://steph-koopmanschap.github.io/isobelle-art-portfolio/src/pages/video-editing.html"
                         >
                         Video editing
                         </a>
@@ -70,7 +70,7 @@ class Header extends HTMLElement {
                     <li>
                       <a
                         class="m3 text-xl hover:bg-black text-white"
-                        href="http://127.0.0.1:5500/src/pages/digital-art.html"
+                        href="https://steph-koopmanschap.github.io/isobelle-art-portfolio/src/pages/digital-art.html"
                       >
                       Digital Art
                       </a>
@@ -83,14 +83,14 @@ class Header extends HTMLElement {
                   <li>
                     <a
                       class="mx-4 text-2xl hover:text-indigo-600"  
-                      href="http://127.0.0.1:5500/src/pages/about.html"
+                      href="https://steph-koopmanschap.github.io/isobelle-art-portfolio/src/pages/about.html"
                     >ABOUT
                     </a>
                   </li>
                   <li>
                   <a  
                   class="mx-4 text-2xl hover:text-indigo-600"
-                    href="http://127.0.0.1:5500/src/pages/contact.html"
+                    href="https://steph-koopmanschap.github.io/isobelle-art-portfolio/src/pages/contact.html"
                   >CONTACT
                   </a>
                 </li>
